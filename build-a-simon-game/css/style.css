@@ -1,0 +1,153 @@
+body{
+ background: url("http://bsnscb.com/data/out/23/39206701-blue-simple-wallpapers.jpg"); 
+  font-family: 'Righteous', cursive;
+  color: black;
+}
+
+.container{
+  margin: 0 auto;
+  text-align: center; 
+}
+
+h1{
+  font-size: 30px;
+  color: #8B008B;
+}
+
+.simonBoard{
+  margin: 0 auto;
+  margin-top: 50px;
+  border: solid 10px black;
+  width: 600px;
+  height: 600px;
+  border-radius: 600px;
+ 
+}
+
+.pad{
+  margin: 0;
+  float: left;
+  position: relative;
+  width: 290px;
+  height: 290px;
+  z-index: 8;
+  border: 5px solid black;
+}
+.green{
+  background-color: green;
+  -moz-border-radius: 300px 0 0 0;
+  border-radius: 300px 0 0 0;
+}
+.green-active{
+  background-color: darkgreen !important;
+}
+
+.red{
+  background-color: red;
+  -moz-border-radius: 0 300px 0 0;
+  border-radius: 0 300px 0 0;
+}
+.red-active{
+  background-color: darkred !important;
+}
+
+.yellow{
+  background-color: yellow;
+  -moz-border-radius: 0 0 0 300px;
+  border-radius: 0 0 0 300px;
+}
+.yellow-active{
+  background-color: #e6d47e !important;
+}
+
+.blue{
+  background-color: blue;
+  -moz-border-radius: 0 0 300px 0;
+  border-radius: 0 0 300px 0;
+}
+.blue-active{
+  background-color: darkblue !important;
+}
+
+.board-controls{
+  border: 15px solid black;
+  height: 245px;
+  width: 245px;
+  border-radius: 150px;
+  background-color: white;
+  clear: both;
+  position: absolute;
+  z-index: 10;
+  margin-top: 160px;
+  margin-left: 160px;
+}
+
+.title{
+  font-size: 45;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.inline{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.display{
+  border: solid 2px black;
+  border-radius: 10px;
+  color: black;
+  width: 60px;
+  height: 45px;
+  font-size: 40px;
+  background-color:#CD853F;
+  
+}
+
+.start, .strick{
+  text-align: center;
+  margin: 0px;
+  margin-left: 20px;
+  border: solid 3px black;
+  width: 55px;
+  height: 55px;
+  border-radius: 30px;
+  color: black;
+  line-height: 55px;
+}
+
+.start{
+  background-color: #FF4500;
+}
+
+.strick{
+  background-color: #DDA0DD;
+}
+
+.switch-container{
+  margin-top: 10px;
+}
+
+.outter-switch{
+  border: solid 2px black;
+  width: 60px;
+  height: 25px;
+  background-color: #E9967A;
+}
+
+.outter-active{
+  background-color: #8FBC8F !important;
+}
+
+.inner-switch{
+  background-color: #8FBC8F;
+  width: 30px;
+  height: 25px;
+  position: relative !important;
+}
+
+.inner-inactive{
+  background-color: #FF1493 !important;
+}
+
